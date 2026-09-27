@@ -1,0 +1,20 @@
+{
+  "name": "mohanram-profile-portfolio-cms",
+  "version": "1.0.0",
+  "description": "Premium Professional Personal Portfolio Website + Admin CMS for Mohanram R",
+  "scripts": {
+    "server": "node server/server.js",
+    "client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "start": "node server/server.js"
+  },
+  "keywords": [
+    "portfolio",
+    "cms",
+    "full-stack",
+    "embedded-systems",
+    "react",
+    "express"
+  ],
+  "author": "Mohanram R"
+}
