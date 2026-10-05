@@ -1,0 +1,916 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@mohanram.dev",
+      "password_hash": "$2a$10$R6NjAD8I18jofIk8SopVZOYdCxxMaMOba0W9D7lTlz6h43fVzoKta",
+      "name": "Mohanram R",
+      "role": "admin",
+      "created_at": "2026-09-27 06:42:18",
+      "updated_at": "2026-09-27 06:42:18"
+    }
+  ],
+  "profile": [
+    {
+      "id": 1,
+      "full_name": "MOHANRAM R",
+      "title": "Associate Web Developer | Full Stack Developer | Electronics & Embedded Systems",
+      "tagline": "Building responsive, high-performance digital experiences with modern web technologies and full stack frameworks, while bringing an engineering mindset rooted in Electronics and Embedded Systems.",
+      "bio_intro": "I am an Associate Web Developer and Software Engineer with an engineering degree in Electronics and Communication from K Ramakrishnan College of Engineering. I specialize in building responsive, accessible, high-performance web applications, managing enterprise CMS platforms, and engineering full-stack solutions.",
+      "bio_engineering": "With an academic foundation in Electronics & Communication Engineering (CGPA: 7.56), I bring rigorous systems thinking, hardware-software integration knowledge, microcontroller familiarity (Embedded C), and industrial automation concepts (PLC ladder logic) to complex technical challenges.",
+      "bio_software": "Professionally, I manage enterprise web properties at VDart, delivering custom WordPress frontend solutions, responsive web layouts (HTML5/CSS3/JavaScript), technical SEO and AIEO optimizations, GA4 analytics instrumentation, and AI chatbot integrations using Node.js and the Gemini API.",
+      "bio_philosophy": "My technical versatility spans React.js, Node.js, Core Java, Spring Boot, RESTful APIs, MySQL, and MongoDB. I focus on clean code, web accessibility standards, cross-browser compatibility, and measurable business impact.",
+      "location": "Mayiladuthurai, Tamil Nadu, India",
+      "email": "mohitmohanram2001@gmail.com",
+      "phone": "+91-6382549825",
+      "linkedin": "https://www.linkedin.com/in/mohanram05",
+      "github": "https://github.com/Mohanram73",
+      "profile_image": "/uploads/asset_1790495450444_359106.jpg",
+      "updated_at": "2026-09-27 07:50:50"
+    }
+  ],
+  "hero": [
+    {
+      "id": 1,
+      "greeting": "Hello, I am",
+      "headline": "MOHANRAM R",
+      "subheadline": "Associate Web Developer | Full Stack Developer | Electronics & Embedded Systems",
+      "statement": "Building responsive, high-performance digital experiences with modern web technologies, backed by an engineering mindset rooted in Electronics and Embedded Systems.",
+      "cta_primary_text": "View Projects",
+      "cta_primary_link": "#projects",
+      "cta_secondary_text": "Download Resume",
+      "cta_secondary_link": "#resume",
+      "background_style": "circuit",
+      "overlay_opacity": 85,
+      "updated_at": "2026-09-27 07:41:58"
+    }
+  ],
+  "experience": [
+    {
+      "id": 2,
+      "company": "VDart",
+      "position": "Associate Web Developer",
+      "employment_type": "Full-time",
+      "start_date": "03/2026",
+      "end_date": "08/2026",
+      "is_current": 0,
+      "location": "Tiruchirappalli, Tamil Nadu-India",
+      "responsibilities": "[\"Managed and maintained WordPress websites and web content, implementing business-driven content updates, landing pages, forms, page modifications, and UI enhancements.\",\"Developed and maintained responsive and adaptive web pages using HTML5, CSS3, and JavaScript across desktop, tablet, and mobile devices.\",\"Executed web content publishing and updates while following web standards, SEO best practices, content quality requirements, and business guidelines.\",\"Diagnosed and resolved website issues including broken links, content errors, formatting inconsistencies, responsive issues, UI defects, and form-related problems.\",\"Performed cross-browser and cross-device testing to validate website functionality, layout, responsiveness, compatibility, and user experience.\",\"Utilized Google Analytics and Google Search Console to monitor website traffic, search performance, indexing, and website visibility.\",\"Implemented SEO and AIEO improvements including metadata, heading structure, image optimization, internal linking, content optimization, and search performance improvements.\",\"Managed HubSpot forms, WPForms, SMTP, domains, DNS, SSL, hosting, and website availability as part of ongoing web maintenance and support.\",\"Used Chrome DevTools to inspect, debug, and troubleshoot HTML, CSS, JavaScript, and browser-specific UI issues.\",\"Collaborated with business stakeholders and internal teams to understand requirements, prioritize multiple content requests, troubleshoot issues, and deliver website updates within expected timelines.\"]",
+      "technologies": "[\"WordPress\",\"HTML5\",\"CSS3\",\"JavaScript\",\"SEO\",\"AIEO\",\"Google Analytics\",\"Google Search Console\",\"HubSpot Forms\",\"WPForms\",\"SMTP\",\"DNS\",\"SSL\",\"Chrome DevTools\"]",
+      "achievements": "[\"Implemented an AI-powered chatbot using Node.js and Gemini API integrated with WordPress for live visitor support.\",\"Conducted website audits eliminating broken links, heading structure issues, and optimizing Core Web Vitals.\"]",
+      "order_idx": 1,
+      "created_at": "2026-09-27 07:41:58"
+    },
+    {
+      "id": 3,
+      "company": "Cognifyz Technologies",
+      "position": "Full Stack Developer Intern",
+      "employment_type": "Internship",
+      "start_date": "01/2026",
+      "end_date": "02/2026",
+      "is_current": 0,
+      "location": "Remote - India",
+      "responsibilities": "[\"Developed reusable UI components using React.js.\",\"Built RESTful APIs and handled data integration.\",\"Improved application performance and efficiency.\"]",
+      "technologies": "[\"React.js\",\"JavaScript\",\"REST APIs\",\"Node.js\",\"Performance Optimization\"]",
+      "achievements": "[\"Engineered reusable frontend components improving overall dashboard loading speed.\"]",
+      "order_idx": 2,
+      "created_at": "2026-09-27 07:41:58"
+    },
+    {
+      "id": 4,
+      "company": "NoviTech R&D Pvt Ltd",
+      "position": "Intern – MERN Stack Development",
+      "employment_type": "Internship",
+      "start_date": "07/2025",
+      "end_date": "10/2025",
+      "is_current": 0,
+      "location": "Coimbatore-India",
+      "responsibilities": "[\"Developed a full-stack e-commerce application using MongoDB, Express.js, React.js, and Node.js.\",\"Implemented JWT authentication and REST APIs for secure user management and application functionality.\",\"Improved responsive UI and optimized database queries to enhance application performance and user experience.\"]",
+      "technologies": "[\"MongoDB\",\"Express.js\",\"React.js\",\"Node.js\",\"JWT\",\"REST APIs\"]",
+      "achievements": "[\"Built complete authentication and e-commerce shopping cart workflow with optimized MongoDB indexing.\"]",
+      "order_idx": 3,
+      "created_at": "2026-09-27 07:41:58"
+    },
+    {
+      "id": 5,
+      "company": "Besant Technologies",
+      "position": "Full Stack Developer Training",
+      "employment_type": "Training",
+      "start_date": "11/2023",
+      "end_date": "11/2024",
+      "is_current": 0,
+      "location": "Chennai",
+      "responsibilities": "[\"Learned frontend technologies: React.js, Angular JavaScript, HTML5, CSS3.\",\"Learned backend technologies: Node.js, Core Java, Spring Boot, MySQL, RESTful APIs.\",\"Built scalable, responsive, and user-friendly web applications.\",\"Practiced Git/GitHub, Agile methodology, and real-time project development.\"]",
+      "technologies": "[\"React.js\",\"Angular\",\"Node.js\",\"Core Java\",\"Spring Boot\",\"MySQL\",\"REST APIs\",\"Git\",\"Agile\"]",
+      "achievements": "[\"Completed intensive year-long Full Stack Developer certification and delivered multiple web applications.\"]",
+      "order_idx": 4,
+      "created_at": "2026-09-27 07:41:58"
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "name": "HTML5",
+      "category": "Frontend",
+      "proficiency_level": "Professional",
+      "icon": "Code",
+      "order_idx": 1
+    },
+    {
+      "id": 2,
+      "name": "CSS3",
+      "category": "Frontend",
+      "proficiency_level": "Professional",
+      "icon": "Palette",
+      "order_idx": 2
+    },
+    {
+      "id": 3,
+      "name": "JavaScript (ES6+)",
+      "category": "Frontend",
+      "proficiency_level": "Professional",
+      "icon": "FileCode",
+      "order_idx": 3
+    },
+    {
+      "id": 4,
+      "name": "React.js",
+      "category": "Frontend",
+      "proficiency_level": "Strong",
+      "icon": "Atom",
+      "order_idx": 4
+    },
+    {
+      "id": 5,
+      "name": "Responsive Web Design",
+      "category": "Frontend",
+      "proficiency_level": "Professional",
+      "icon": "Layout",
+      "order_idx": 5
+    },
+    {
+      "id": 6,
+      "name": "Core Java",
+      "category": "Backend",
+      "proficiency_level": "Strong",
+      "icon": "Coffee",
+      "order_idx": 6
+    },
+    {
+      "id": 7,
+      "name": "Spring Boot",
+      "category": "Backend",
+      "proficiency_level": "Strong",
+      "icon": "Cpu",
+      "order_idx": 7
+    },
+    {
+      "id": 8,
+      "name": "REST APIs",
+      "category": "Backend",
+      "proficiency_level": "Professional",
+      "icon": "Network",
+      "order_idx": 8
+    },
+    {
+      "id": 9,
+      "name": "PHP",
+      "category": "Backend",
+      "proficiency_level": "Strong",
+      "icon": "Server",
+      "order_idx": 9
+    },
+    {
+      "id": 10,
+      "name": "MySQL",
+      "category": "Database",
+      "proficiency_level": "Strong",
+      "icon": "Database",
+      "order_idx": 10
+    },
+    {
+      "id": 11,
+      "name": "WordPress",
+      "category": "CMS / Web Platforms",
+      "proficiency_level": "Professional",
+      "icon": "Globe",
+      "order_idx": 11
+    },
+    {
+      "id": 12,
+      "name": "Webflow",
+      "category": "CMS / Web Platforms",
+      "proficiency_level": "Working Knowledge",
+      "icon": "Monitor",
+      "order_idx": 12
+    },
+    {
+      "id": 13,
+      "name": "Framer",
+      "category": "CMS / Web Platforms",
+      "proficiency_level": "Working Knowledge",
+      "icon": "Layers",
+      "order_idx": 13
+    },
+    {
+      "id": 14,
+      "name": "Git",
+      "category": "Tools",
+      "proficiency_level": "Professional",
+      "icon": "GitBranch",
+      "order_idx": 14
+    },
+    {
+      "id": 15,
+      "name": "GitHub",
+      "category": "Tools",
+      "proficiency_level": "Professional",
+      "icon": "Github",
+      "order_idx": 15
+    },
+    {
+      "id": 16,
+      "name": "VS Code",
+      "category": "Tools",
+      "proficiency_level": "Professional",
+      "icon": "Code2",
+      "order_idx": 16
+    },
+    {
+      "id": 17,
+      "name": "Postman",
+      "category": "Tools",
+      "proficiency_level": "Professional",
+      "icon": "Send",
+      "order_idx": 17
+    },
+    {
+      "id": 18,
+      "name": "Chrome DevTools",
+      "category": "Tools",
+      "proficiency_level": "Professional",
+      "icon": "Wrench",
+      "order_idx": 18
+    },
+    {
+      "id": 19,
+      "name": "Manual Testing",
+      "category": "Testing",
+      "proficiency_level": "Strong",
+      "icon": "CheckSquare",
+      "order_idx": 19
+    },
+    {
+      "id": 20,
+      "name": "API Testing",
+      "category": "Testing",
+      "proficiency_level": "Strong",
+      "icon": "CheckCircle",
+      "order_idx": 20
+    },
+    {
+      "id": 21,
+      "name": "Selenium Fundamentals",
+      "category": "Testing",
+      "proficiency_level": "Working Knowledge",
+      "icon": "Sliders",
+      "order_idx": 21
+    },
+    {
+      "id": 22,
+      "name": "SEO (Search Engine Optimization)",
+      "category": "Web / Marketing Technology",
+      "proficiency_level": "Strong",
+      "icon": "Search",
+      "order_idx": 22
+    },
+    {
+      "id": 23,
+      "name": "AIEO (AI Engine Optimization)",
+      "category": "Web / Marketing Technology",
+      "proficiency_level": "Working Knowledge",
+      "icon": "Sparkles",
+      "order_idx": 23
+    },
+    {
+      "id": 24,
+      "name": "Google Analytics 4",
+      "category": "Web / Marketing Technology",
+      "proficiency_level": "Strong",
+      "icon": "BarChart2",
+      "order_idx": 24
+    },
+    {
+      "id": 25,
+      "name": "Google Search Console",
+      "category": "Web / Marketing Technology",
+      "proficiency_level": "Strong",
+      "icon": "TrendingUp",
+      "order_idx": 25
+    },
+    {
+      "id": 26,
+      "name": "UTM Tracking & Attribution",
+      "category": "Web / Marketing Technology",
+      "proficiency_level": "Strong",
+      "icon": "Tag",
+      "order_idx": 26
+    },
+    {
+      "id": 27,
+      "name": "Web Content Management",
+      "category": "Web / Marketing Technology",
+      "proficiency_level": "Professional",
+      "icon": "FolderKanban",
+      "order_idx": 27
+    },
+    {
+      "id": 28,
+      "name": "Embedded Systems Fundamentals",
+      "category": "Electronics & Embedded",
+      "proficiency_level": "Working Knowledge",
+      "icon": "CircuitBoard",
+      "order_idx": 28
+    },
+    {
+      "id": 29,
+      "name": "Microcontrollers",
+      "category": "Electronics & Embedded",
+      "proficiency_level": "Working Knowledge",
+      "icon": "Cpu",
+      "order_idx": 29
+    },
+    {
+      "id": 30,
+      "name": "Digital Electronics",
+      "category": "Electronics & Embedded",
+      "proficiency_level": "Working Knowledge",
+      "icon": "Binary",
+      "order_idx": 30
+    },
+    {
+      "id": 31,
+      "name": "Analog Electronics",
+      "category": "Electronics & Embedded",
+      "proficiency_level": "Working Knowledge",
+      "icon": "Activity",
+      "order_idx": 31
+    },
+    {
+      "id": 32,
+      "name": "Communication Fundamentals",
+      "category": "Electronics & Embedded",
+      "proficiency_level": "Working Knowledge",
+      "icon": "Radio",
+      "order_idx": 32
+    },
+    {
+      "id": 33,
+      "name": "Hardware / Software Integration",
+      "category": "Electronics & Embedded",
+      "proficiency_level": "Working Knowledge",
+      "icon": "Workflow",
+      "order_idx": 33
+    },
+    {
+      "id": 34,
+      "name": "Embedded Programming Fundamentals",
+      "category": "Electronics & Embedded",
+      "proficiency_level": "Fundamental",
+      "icon": "Terminal",
+      "order_idx": 34
+    },
+    {
+      "id": 35,
+      "name": "Electronics Troubleshooting",
+      "category": "Electronics & Embedded",
+      "proficiency_level": "Working Knowledge",
+      "icon": "Hammer",
+      "order_idx": 35
+    },
+    {
+      "id": 36,
+      "name": "Engineering Problem Solving",
+      "category": "Electronics & Embedded",
+      "proficiency_level": "Professional",
+      "icon": "Lightbulb",
+      "order_idx": 36
+    }
+  ],
+  "projects": [
+    {
+      "id": 5,
+      "title": "VDart Corporate Website & Gemini AI Chatbot Integration",
+      "slug": "vdart-corporate-website",
+      "summary": "Live enterprise WordPress platform featuring responsive web design, accessibility & technical SEO audits, Google Analytics instrumentation, and an AI-powered conversational chatbot built with Node.js and Gemini API.",
+      "category": "Web",
+      "problem": "Corporate website required continuous UI enhancements, high-availability maintenance, search visibility improvements, and an automated visitor engagement mechanism to resolve user inquiries around the clock.",
+      "approach": "Managed WordPress website content, page layouts, navigation, forms, landing pages, and responsive UI updates. Conducted audits for SEO, accessibility, broken links, heading structure, metadata, and web performance. Implemented an AI-powered chatbot using Node.js and Gemini API.",
+      "architecture": "Frontend: Responsive HTML5, CSS3, ES6+ JavaScript, WordPress Custom Theme\nAI Chatbot: Node.js, Express, Google Gemini API\nAnalytics & Telemetry: Google Analytics, Google Search Console, UTM Tracking\nInfrastructure: HubSpot Forms, WPForms, SMTP, Domains, DNS, SSL, Hosting",
+      "tech_stack": "[\"WordPress\",\"HTML5\",\"CSS3\",\"JavaScript\",\"Node.js\",\"Gemini API\",\"SEO\",\"AIEO\",\"Google Analytics\",\"Search Console\",\"HubSpot Forms\"]",
+      "features": "[\"Live Website: https://vdart.dimiour.io/\",\"Implemented an AI-powered chatbot using Node.js and Gemini API, integrated with WordPress to improve website visitor support\",\"Conducted website audits to identify SEO, accessibility, broken links, heading structure, metadata, image alt-text, and web performance issues\",\"Utilized Google Search Console, Google Analytics, UTM tracking, and SEO tools to monitor website traffic, search visibility, and indexing\",\"Performed cross-browser, cross-device, and responsive testing and resolved HTML, CSS, and JavaScript issues using Chrome DevTools\",\"Managed HubSpot forms, WPForms, SMTP, domains, DNS, SSL, hosting, and website availability\"]",
+      "challenges": "Integrating a real-time Gemini AI conversational agent seamlessly within existing WordPress architecture without affecting page performance or load times.",
+      "solution": "Constructed a lightweight asynchronous Node.js microservice communicating with Gemini API via streaming REST endpoints, embedded via a performant non-blocking frontend widget.",
+      "result": "Live production platform serving enterprise visitors with continuous uptime and automated 24/7 AI-powered support.",
+      "github_url": "https://github.com/Mohanram73",
+      "live_url": "https://vdart.dimiour.io/",
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+      "is_featured": 1,
+      "order_idx": 1,
+      "views_count": 0,
+      "created_at": "2026-09-27 07:41:58"
+    },
+    {
+      "id": 6,
+      "title": "CT Lung Image Enhancement & Segmentation Using Pythagorean Fuzzy Set",
+      "slug": "ct-lung-image-enhancement",
+      "summary": "Digital medical image processing model designed to enhance contrast and segment pulmonary CT scans using mathematical Pythagorean fuzzy set theory for accurate diagnostic interpretation.",
+      "category": "Electronics & Embedded",
+      "problem": "Low contrast, ambient noise, and ambiguous edge gradients in pulmonary CT scans hinder accurate segmentation of lung parenchyma and subtle pathological tissues.",
+      "approach": "Developed an image processing model to enhance and segment CT scan images using Pythagorean fuzzy set membership and non-membership functions to improve diagnostic contrast.",
+      "architecture": "Methodology: Pythagorean Fuzzy Set (PFS) Mathematical Framework\nDomain: Digital Signal & Image Processing\nData: CT Scan Image Datasets & Boundary Matrices",
+      "tech_stack": "[\"Digital Image Processing\",\"Pythagorean Fuzzy Sets\",\"Signal Processing\",\"Data Analysis\",\"Problem Solving\"]",
+      "features": "[\"Developed an image processing model to enhance and segment CT scan images\",\"Applied algorithm-based data analysis for improving accuracy\",\"Worked on handling digital signals and image datasets\",\"Gained experience in data interpretation and technical problem-solving\"]",
+      "challenges": "Overcoming ambiguous voxel boundaries and noise artifacts between healthy tissue and lesion boundaries in low-contrast scans.",
+      "solution": "Formulated membership, non-membership, and hesitancy degrees under Pythagorean fuzzy constraints, effectively expanding the contrast spectrum across edge gradients.",
+      "result": "Significantly improved tissue boundary delineation and automated segmentation accuracy for clinical analysis.",
+      "github_url": "https://github.com/Mohanram73",
+      "live_url": "",
+      "image_url": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1200&q=80",
+      "is_featured": 1,
+      "order_idx": 2,
+      "views_count": 0,
+      "created_at": "2026-09-27 07:41:58"
+    },
+    {
+      "id": 7,
+      "title": "Easy Transfer Application — Secure Funds Transfer System",
+      "slug": "easy-transfer-application",
+      "summary": "Secure fund transfer system built using Core Java, JDBC, and MySQL with robust transaction validation, structured exception handling, and modular OOP architecture.",
+      "category": "Backend",
+      "problem": "Financial fund transfers require absolute transactional consistency, preventing partial debit/credit executions and ensuring data integrity under unexpected database disconnects.",
+      "approach": "Developed a secure fund transfer system using Core Java and JDBC. Implemented transaction validation, structured exception handling, modular architecture, and optimized SQL queries.",
+      "architecture": "Language: Core Java (OOP Principles)\nConnectivity: JDBC (Java Database Connectivity)\nDatabase: MySQL with ACID Transaction Management\nVersion Control: Git / GitHub",
+      "tech_stack": "[\"Core Java\",\"JDBC\",\"MySQL\",\"OOP\",\"SQL\",\"Git\"]",
+      "features": "[\"Developed a secure fund transfer system using Core Java and JDBC\",\"Implemented transaction validation, structured exception handling, and modular architecture\",\"Optimized SQL queries and ensured data integrity with MySQL\",\"Prevented SQL injection vulnerabilities through parameterized statements\"]",
+      "challenges": "Guaranteeing atomic transactions so neither sender nor receiver balances could be desynchronized during mid-operation failure.",
+      "solution": "Applied explicit JDBC transaction boundaries (`setAutoCommit(false)`) with rollback routines in exception handling blocks.",
+      "result": "Verified 100% data consistency across multi-account concurrent transfer simulations.",
+      "github_url": "https://github.com/Mohanram73",
+      "live_url": "",
+      "image_url": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=1200&q=80",
+      "is_featured": 1,
+      "order_idx": 3,
+      "views_count": 0,
+      "created_at": "2026-09-27 07:41:58"
+    },
+    {
+      "id": 8,
+      "title": "Sensor-Based Water Level Monitoring System",
+      "slug": "sensor-water-level-monitoring",
+      "summary": "Automated embedded monitoring system using microcontrollers and water level sensors programmed in Embedded C for real-time liquid monitoring and automated pump control.",
+      "category": "Electronics & Embedded",
+      "problem": "Water overflow in storage tanks and dry-run damage to electric pumps cause substantial resource waste and mechanical motor failure.",
+      "approach": "Designed and developed an automated water level monitoring system using a microcontroller and water level sensors. Programmed the controller using Embedded C for real-time monitoring and pump control.",
+      "architecture": "Hardware: Microcontroller Unit (MCU), Water Level Sensors, Relay Module\nProgramming: Embedded C\nTesting: Circuit Simulation & Hardware Troubleshooting",
+      "tech_stack": "[\"Sensors\",\"Microcontroller\",\"Embedded C\",\"Digital Electronics\",\"Hardware Troubleshooting\"]",
+      "features": "[\"Designed and developed an automated water level monitoring system using a microcontroller and water level sensors\",\"Programmed the controller using Embedded C for real-time monitoring and pump control\",\"Implemented automatic pump ON/OFF functionality based on predefined water levels\",\"Performed testing and troubleshooting to ensure reliable operation\"]",
+      "challenges": "Preventing sensor corrosion and erratic relay switching caused by surface ripples.",
+      "solution": "Engineered software hysteresis timing thresholds in Embedded C and selected corrosion-resistant sensing probes.",
+      "result": "Achieved autonomous pump automation with zero water overflow and reliable motor protection.",
+      "github_url": "https://github.com/Mohanram73",
+      "live_url": "",
+      "image_url": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80",
+      "is_featured": 1,
+      "order_idx": 4,
+      "views_count": 0,
+      "created_at": "2026-09-27 07:41:58"
+    },
+    {
+      "id": 9,
+      "title": "PLC-Based Industrial Motor Control System",
+      "slug": "plc-based-motor-control",
+      "summary": "Industrial automation motor start/stop control system designed using PLC ladder logic programming with sensor-based safety interlocks and fault detection.",
+      "category": "Electronics & Embedded",
+      "problem": "Industrial electric motors require automated start/stop cycling with thermal overload safeguards and immediate emergency shutoff interlocks to ensure workplace safety.",
+      "approach": "Designed PLC ladder logic program for automated motor start/stop control system. Implemented sensor-based input signals for safety interlock and fault detection.",
+      "architecture": "Controller: Programmable Logic Controller (PLC)\nProgramming: Ladder Logic (LD)\nComponents: Industrial Sensors, Safety Interlocks, Pushbuttons, Contactor Relays",
+      "tech_stack": "[\"PLC\",\"Ladder Logic\",\"Sensors\",\"Industrial Automation\",\"Troubleshooting Logic\"]",
+      "features": "[\"Designed PLC ladder logic program for automated motor start/stop control system\",\"Implemented sensor-based input signals for safety interlock and fault detection\",\"Simulated automation logic for industrial motor control operations\",\"Demonstrated understanding of industrial automation workflow and troubleshooting logic\"]",
+      "challenges": "Ensuring fail-safe operation where any sensor fault or wiring severance instantly de-energizes the motor.",
+      "solution": "Structured the ladder rungs with normally-closed (NC) safety loops, guaranteeing immediate emergency shutdown upon signal loss.",
+      "result": "Verified zero-defect operation across simulated industrial automation workflows.",
+      "github_url": "https://github.com/Mohanram73",
+      "live_url": "",
+      "image_url": "https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=1200&q=80",
+      "is_featured": 0,
+      "order_idx": 5,
+      "views_count": 0,
+      "created_at": "2026-09-27 07:41:58"
+    },
+    {
+      "id": 10,
+      "title": "Responsive Restaurant Website",
+      "slug": "restaurant-website",
+      "summary": "Responsive culinary web platform with user-friendly interactive UI, dynamic menu presentation, and layout optimization built with HTML5, CSS3, and JavaScript.",
+      "category": "Web",
+      "problem": "Culinary establishments require an intuitive, mobile-optimized digital presence to showcase dining menus and facilitate customer inquiries.",
+      "approach": "Developed a responsive restaurant website with user-friendly UI. Implemented interactive features using JavaScript. Optimized layout for better performance and user experience.",
+      "architecture": "Frontend: HTML5, CSS3, JavaScript (ES6+)\nDesign: Responsive Web Design, Mobile Optimization",
+      "tech_stack": "[\"HTML5\",\"CSS3\",\"JavaScript\",\"Responsive Web Design\",\"UI/UX\"]",
+      "features": "[\"Developed a responsive restaurant website with user-friendly UI\",\"Implemented interactive features using JavaScript\",\"Optimized layout for better performance and user experience\",\"Clean, cross-browser compatible markup following modern web standards\"]",
+      "challenges": "Ensuring fluid responsiveness across diverse mobile viewport widths without layout shifting.",
+      "solution": "Employed modern CSS Flexbox and Grid layouts with media queries and responsive image sizing.",
+      "result": "Delivered an interactive, performant web experience with high user satisfaction.",
+      "github_url": "https://github.com/Mohanram73",
+      "live_url": "",
+      "image_url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80",
+      "is_featured": 0,
+      "order_idx": 6,
+      "views_count": 0,
+      "created_at": "2026-09-27 07:41:58"
+    },
+    {
+      "id": 11,
+      "title": "Business Process Automation App — Leave Management System",
+      "slug": "business-process-automation-app",
+      "summary": "Enterprise workflow automation solution built with Microsoft PowerApps (Canvas), Power Automate, and SharePoint List, streamlining leave requests and managerial email approvals.",
+      "category": "Web",
+      "problem": "Unstructured or manual leave requests cause tracking delays, administrative overhead, and lack of automated notifications.",
+      "approach": "Designed and developed a Leave Management System using PowerApps Canvas. Connected SharePoint List as backend data source. Created approval workflow using Power Automate for automated email notifications. Implemented validation rules and status tracking dashboard for users.",
+      "architecture": "Platform: Microsoft PowerApps (Canvas App)\nWorkflow Automation: Microsoft Power Automate\nBackend Data Source: Microsoft SharePoint List",
+      "tech_stack": "[\"PowerApps\",\"Power Automate\",\"SharePoint\",\"Process Automation\",\"Business Workflows\"]",
+      "features": "[\"Designed and developed a Leave Management System using PowerApps Canvas\",\"Connected SharePoint List as backend data source\",\"Created approval workflow using Power Automate for automated email notifications\",\"Implemented validation rules and status tracking dashboard for users\"]",
+      "challenges": "Configuring conditional managerial approval branching and dynamic status tracking.",
+      "solution": "Built multi-stage Power Automate cloud flows with instant status updates in SharePoint.",
+      "result": "Transformed manual leave requests into an automated, transparent, digital process.",
+      "github_url": "https://github.com/Mohanram73",
+      "live_url": "",
+      "image_url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80",
+      "is_featured": 0,
+      "order_idx": 7,
+      "views_count": 0,
+      "created_at": "2026-09-27 07:41:58"
+    }
+  ],
+  "education": [
+    {
+      "id": 2,
+      "degree": "B.E. – Electronics and Communication Engineering",
+      "institution": "K Ramakrishnan College of Engineering",
+      "field_of_study": "Electronics and Communication Engineering",
+      "start_year": "2019",
+      "end_year": "2023",
+      "grade": "CGPA: 7.56",
+      "details": "Graduated with First Class honors. Comprehensive coursework in Digital Electronics, Microprocessors & Microcontrollers, Analog Circuits, Communication Systems, Digital Signal Processing, and Medical Image Processing.",
+      "order_idx": 1
+    },
+    {
+      "id": 3,
+      "degree": "Higher Secondary Education",
+      "institution": "Best Matriculation Higher Secondary School",
+      "field_of_study": "Computer Science & Mathematics",
+      "start_year": "2017",
+      "end_year": "2019",
+      "grade": "Completed",
+      "details": "Sirkazhi, Tamil Nadu. Foundation in Mathematics, Physics, Chemistry, and Computer Science.",
+      "order_idx": 2
+    }
+  ],
+  "certifications": [
+    {
+      "id": 4,
+      "title": "TCS NQT (National Qualifier Test) — Score: 70%",
+      "issuer": "Tata Consultancy Services",
+      "issue_date": "2023",
+      "credential_url": "",
+      "credential_id": "TCS-NQT-70PCT",
+      "order_idx": 1
+    },
+    {
+      "id": 5,
+      "title": "Java Full Stack Developer Course",
+      "issuer": "Besant Technologies",
+      "issue_date": "11/2023 – 11/2024",
+      "credential_url": "",
+      "credential_id": "BESANT-JAVA-FS",
+      "order_idx": 2
+    },
+    {
+      "id": 6,
+      "title": "Embedded Systems Training",
+      "issuer": "National Institute of Electronics & Information Technology (NIELIT)",
+      "issue_date": "2023",
+      "credential_url": "",
+      "credential_id": "NIELIT-EMB-SYS",
+      "order_idx": 3
+    },
+    {
+      "id": 7,
+      "title": "Build a Free Website with WordPress Project",
+      "issuer": "Coursera",
+      "issue_date": "2024",
+      "credential_url": "",
+      "credential_id": "COURSERA-WP-PROJ",
+      "order_idx": 4
+    },
+    {
+      "id": 8,
+      "title": "CSS (Basic) Certificate",
+      "issuer": "HackerRank",
+      "issue_date": "2024",
+      "credential_url": "",
+      "credential_id": "HACKERRANK-CSS-BASIC",
+      "order_idx": 5
+    },
+    {
+      "id": 9,
+      "title": "Computer Vision App (Azure)",
+      "issuer": "Microsoft",
+      "issue_date": "2023",
+      "credential_url": "",
+      "credential_id": "MSFT-AZURE-CV",
+      "order_idx": 6
+    }
+  ],
+  "presentations": [
+    {
+      "id": 5,
+      "title": "Blockchain Technology",
+      "venue": "K Ramakrishnan College of Engineering (KRCE)",
+      "type": "Paper Presentation",
+      "details": "Presented technical paper on decentralized architectures, cryptographic security, and distributed consensus.",
+      "order_idx": 1
+    },
+    {
+      "id": 6,
+      "title": "Biological Amplifiers",
+      "venue": "K Ramakrishnan College of Engineering (KRCE)",
+      "type": "Paper Presentation",
+      "details": "Presented technical research on bio-potential amplification circuits and noise reduction in medical instrumentation.",
+      "order_idx": 2
+    },
+    {
+      "id": 7,
+      "title": "Machine Learning for Remote Sensing Applications",
+      "venue": "National Seminar",
+      "type": "Seminar Participation",
+      "details": "Participated in national seminar on satellite image classification and ML feature processing.",
+      "order_idx": 3
+    },
+    {
+      "id": 8,
+      "title": "SUITS IT Program",
+      "venue": "Bharathidasan University, Trichy",
+      "type": "Co-Curricular IT Program",
+      "details": "Participated in university-level IT skill development and computer applications program.",
+      "order_idx": 4
+    }
+  ],
+  "resume_files": [
+    {
+      "id": 1,
+      "filename": "Mohanram_R_Full_Stack_Engineer_Resume.pdf",
+      "original_name": "Mohanram_R_Full_Stack_Resume.pdf",
+      "version": "v1.2.0",
+      "file_size": 124800,
+      "is_current": 1,
+      "uploaded_at": "2026-09-27 06:42:18"
+    }
+  ],
+  "settings": [
+    {
+      "key": "theme_mode",
+      "value": "light",
+      "updated_at": "2026-09-27 07:38:23"
+    },
+    {
+      "key": "primary_color",
+      "value": "#0ea5e9",
+      "updated_at": "2026-09-27 07:38:23"
+    },
+    {
+      "key": "accent_color",
+      "value": "#0ea5e9",
+      "updated_at": "2026-09-27 07:38:23"
+    },
+    {
+      "key": "hero_background",
+      "value": "circuit",
+      "updated_at": "2026-09-27 06:42:18"
+    },
+    {
+      "key": "overlay_opacity",
+      "value": "85",
+      "updated_at": "2026-09-27 06:42:18"
+    },
+    {
+      "key": "visitor_notifications_enabled",
+      "value": "false",
+      "updated_at": "2026-09-27 06:42:18"
+    },
+    {
+      "key": "notification_frequency",
+      "value": "instant",
+      "updated_at": "2026-09-27 06:42:18"
+    },
+    {
+      "key": "admin_notification_email",
+      "value": "mohitmohanram2001@gmail.com",
+      "updated_at": "2026-09-27 06:42:18"
+    },
+    {
+      "key": "smtp_host",
+      "value": "smtp.gmail.com",
+      "updated_at": "2026-09-27 06:42:18"
+    },
+    {
+      "key": "smtp_port",
+      "value": "587",
+      "updated_at": "2026-09-27 06:42:18"
+    },
+    {
+      "key": "smtp_user",
+      "value": "",
+      "updated_at": "2026-09-27 06:42:18"
+    },
+    {
+      "key": "smtp_pass",
+      "value": "",
+      "updated_at": "2026-09-27 06:42:18"
+    },
+    {
+      "key": "smtp_secure",
+      "value": "false",
+      "updated_at": "2026-09-27 06:42:18"
+    },
+    {
+      "key": "seo_meta_title",
+      "value": "MOHANRAM R | Associate Web Developer & Full Stack Engineer",
+      "updated_at": "2026-09-27 06:42:18"
+    },
+    {
+      "key": "seo_meta_description",
+      "value": "Official portfolio of Mohanram R - Associate Web Developer at VDart, Full Stack Developer, and Electronics & Embedded Systems Engineer. Specializing in WordPress, React, Core Java, SEO, and Hardware-Software integration.",
+      "updated_at": "2026-09-27 06:42:18"
+    },
+    {
+      "key": "seo_keywords",
+      "value": "Mohanram R, Full Stack Developer, Software Engineer, React Developer, Core Java, Spring Boot, Embedded Systems, Electronics Engineer, VDart, Portfolio",
+      "updated_at": "2026-09-27 06:42:18"
+    },
+    {
+      "key": "seo_og_image",
+      "value": "/uploads/og-banner.jpg",
+      "updated_at": "2026-09-27 06:42:18"
+    },
+    {
+      "key": "seo_canonical_url",
+      "value": "https://mohanram.dev",
+      "updated_at": "2026-09-27 06:42:18"
+    }
+  ],
+  "contact_messages": [
+    {
+      "id": 1,
+      "name": "Sarah Connor",
+      "email": "sarah.c@techventure.com",
+      "company": "TechVenture Labs",
+      "subject": "Senior Full Stack Opportunity",
+      "opportunity_type": "Full Stack Role",
+      "message": "Hi Mohanram, your blend of React, Core Java, and Embedded background is very impressive. We would love to discuss a Senior Engineer role.",
+      "status": "unread",
+      "reply_notes": null,
+      "ip_hash": "40ba28482db19daf",
+      "created_at": "2026-09-27 06:58:30"
+    },
+    {
+      "id": 2,
+      "name": "Alex Morgan",
+      "email": "alex.m@enterprise.io",
+      "company": "Enterprise Solutions Inc.",
+      "subject": "Lead Full Stack Engineer Opportunity",
+      "opportunity_type": "Full Stack Role",
+      "message": "Hello Mohanram, we reviewed your projects and VDart experience. We want to schedule an interview with our VP of Engineering.",
+      "status": "unread",
+      "reply_notes": null,
+      "ip_hash": "40ba28482db19daf",
+      "created_at": "2026-09-27 07:04:54"
+    }
+  ],
+  "analytics_visits": [
+    {
+      "id": 1,
+      "session_id": "test-sess-1",
+      "ip_hash": "40ba28482db19daf",
+      "page": "/projects/my-temple",
+      "referrer": "LinkedIn",
+      "browser": "Chrome",
+      "os": "Windows 10/11",
+      "device": "Desktop",
+      "country": "Unknown",
+      "city": "Unknown",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0.0.0 Safari/537.36",
+      "created_at": "2026-09-27 06:44:06"
+    },
+    {
+      "id": 2,
+      "session_id": "sess_m953wulfmt_muji9z1j",
+      "ip_hash": "40ba28482db19daf",
+      "page": "/",
+      "referrer": "Other Website",
+      "browser": "Edge",
+      "os": "Windows 10/11",
+      "device": "Desktop",
+      "country": "Unknown",
+      "city": "Unknown",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.",
+      "created_at": "2026-09-27 07:37:15"
+    },
+    {
+      "id": 3,
+      "session_id": "sess_m953wulfmt_muji9z1j",
+      "ip_hash": "40ba28482db19daf",
+      "page": "/",
+      "referrer": "Other Website",
+      "browser": "Edge",
+      "os": "Windows 10/11",
+      "device": "Desktop",
+      "country": "Unknown",
+      "city": "Unknown",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.",
+      "created_at": "2026-09-27 07:38:25"
+    },
+    {
+      "id": 4,
+      "session_id": "sess_i30j1qzez8_mujinyx0",
+      "ip_hash": "40ba28482db19daf",
+      "page": "/",
+      "referrer": "Other Website",
+      "browser": "Edge",
+      "os": "Windows 10/11",
+      "device": "Desktop",
+      "country": "Unknown",
+      "city": "Unknown",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.",
+      "created_at": "2026-09-27 07:48:09"
+    },
+    {
+      "id": 5,
+      "session_id": "sess_i30j1qzez8_mujinyx0",
+      "ip_hash": "40ba28482db19daf",
+      "page": "/",
+      "referrer": "Other Website",
+      "browser": "Edge",
+      "os": "Windows 10/11",
+      "device": "Desktop",
+      "country": "Unknown",
+      "city": "Unknown",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.",
+      "created_at": "2026-09-27 07:50:32"
+    },
+    {
+      "id": 6,
+      "session_id": "sess_i30j1qzez8_mujinyx0",
+      "ip_hash": "40ba28482db19daf",
+      "page": "/",
+      "referrer": "Other Website",
+      "browser": "Edge",
+      "os": "Windows 10/11",
+      "device": "Desktop",
+      "country": "Unknown",
+      "city": "Unknown",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.",
+      "created_at": "2026-09-27 07:50:52"
+    }
+  ],
+  "analytics_events": [
+    {
+      "id": 1,
+      "event_type": "contact_submit",
+      "event_target": null,
+      "metadata": "{\"messageId\":2,\"opportunity_type\":\"Full Stack Role\"}",
+      "ip_hash": "40ba28482db19daf",
+      "created_at": "2026-09-27 07:04:54",
+      "event_name": "form_submission"
+    },
+    {
+      "id": 2,
+      "event_type": "resume_download",
+      "event_target": null,
+      "metadata": "{\"version\":\"v1.2.0\",\"filename\":\"Mohanram_R_Full_Stack_Engineer_Resume.pdf\"}",
+      "ip_hash": "40ba28482db19daf",
+      "created_at": "2026-09-27 07:04:54",
+      "event_name": "download_pdf"
+    },
+    {
+      "id": 3,
+      "event_type": "project_click",
+      "event_target": null,
+      "metadata": "{\"title\":\"Easy Transfer Application — Secure Funds Transfer System\",\"slug\":\"easy-transfer-application\"}",
+      "ip_hash": "40ba28482db19daf",
+      "created_at": "2026-09-27 07:48:53",
+      "event_name": "view_case_study"
+    }
+  ]
+}

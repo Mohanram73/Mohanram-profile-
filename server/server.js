@@ -39,20 +39,38 @@ const contactLimiter = rateLimit({
 });
 
 // Serve Uploads Directory
-const uploadsDir = path.join(__dirname, 'uploads');
-if (!fs.existsSync(uploadsDir)) {
-  fs.mkdirSync(uploadsDir, { recursive: true });
-}
-app.use('/uploads', express.static(uploadsDir));
+const candidateUploadDirs = [
+  path.join(__dirname, 'uploads'),
+  path.join(process.cwd(), 'server', 'uploads'),
+  path.join(process.cwd(), 'client', 'dist', 'uploads'),
+  path.join(process.cwd(), 'client', 'public', 'uploads'),
+  path.join('/tmp', 'uploads')
+];
 
-// API Routes
-app.use('/api/auth', authLimiter, require('./routes/authRoutes'));
-app.use('/api/content', require('./routes/contentRoutes'));
-app.use('/api/analytics', require('./routes/analyticsRoutes'));
-app.use('/api/contact', contactLimiter, require('./routes/contactRoutes'));
-app.use('/api/resume', require('./routes/resumeRoutes'));
-app.use('/api/upload', require('./routes/uploadRoutes'));
-app.use('/api/settings', require('./routes/settingsRoutes'));
+for (const dir of candidateUploadDirs) {
+  try {
+    if (!fs.existsSync(dir)) {
+      fs.mkdirSync(dir, { recursive: true });
+    }
+  } catch (e) {}
+  if (fs.existsSync(dir)) {
+    app.use('/uploads', express.static(dir));
+  }
+}
+
+// API Router
+const apiRouter = express.Router();
+apiRouter.use('/auth', authLimiter, require('./routes/authRoutes'));
+apiRouter.use('/content', require('./routes/contentRoutes'));
+apiRouter.use('/analytics', require('./routes/analyticsRoutes'));
+apiRouter.use('/contact', contactLimiter, require('./routes/contactRoutes'));
+apiRouter.use('/resume', require('./routes/resumeRoutes'));
+apiRouter.use('/upload', require('./routes/uploadRoutes'));
+apiRouter.use('/settings', require('./routes/settingsRoutes'));
+
+// Mount router on both /api and root to support all serverless rewrite schemes
+app.use('/api', apiRouter);
+app.use(apiRouter);
 
 // Dynamic Sitemap & Robots.txt
 app.get('/robots.txt', (req, res) => {
@@ -124,13 +142,15 @@ app.get('/sitemap.xml', (req, res) => {
   res.send(xml);
 });
 
-// Serve frontend build if available
-const clientDist = path.join(__dirname, '..', 'client', 'dist');
-if (fs.existsSync(clientDist)) {
-  app.use(express.static(clientDist));
-  app.get('*', (req, res) => {
-    res.sendFile(path.join(clientDist, 'index.html'));
-  });
+// Serve frontend build when running locally as standalone server
+if (!process.env.VERCEL && !process.env.AWS_LAMBDA_FUNCTION_VERSION) {
+  const clientDist = path.join(__dirname, '..', 'client', 'dist');
+  if (fs.existsSync(clientDist)) {
+    app.use(express.static(clientDist));
+    app.get('*', (req, res) => {
+      res.sendFile(path.join(clientDist, 'index.html'));
+    });
+  }
 }
 
 // Global error handler
@@ -139,9 +159,13 @@ app.use((err, req, res, next) => {
   res.status(500).json({ success: false, message: 'Internal server error', error: err.message });
 });
 
-app.listen(PORT, () => {
-  console.log(`===============================================`);
-  console.log(`Mohanram Portfolio Server listening on port ${PORT}`);
-  console.log(`API Base: http://localhost:${PORT}/api`);
-  console.log(`===============================================`);
-});
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`===============================================`);
+    console.log(`Mohanram Portfolio Server listening on port ${PORT}`);
+    console.log(`API Base: http://localhost:${PORT}/api`);
+    console.log(`===============================================`);
+  });
+}
+
+module.exports = app;

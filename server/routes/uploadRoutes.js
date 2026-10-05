@@ -6,13 +6,21 @@ const multer = require('multer');
 const { authenticateToken } = require('../middleware/auth');
 const db = require('../db');
 
+function getUploadDir() {
+  const dir = (process.env.VERCEL || process.env.AWS_LAMBDA_FUNCTION_VERSION)
+    ? path.join('/tmp', 'uploads')
+    : path.join(__dirname, '..', 'uploads');
+  try {
+    if (!fs.existsSync(dir)) {
+      fs.mkdirSync(dir, { recursive: true });
+    }
+  } catch (e) {}
+  return dir;
+}
+
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
-    const uploadDir = path.join(__dirname, '..', 'uploads');
-    if (!fs.existsSync(uploadDir)) {
-      fs.mkdirSync(uploadDir, { recursive: true });
-    }
-    cb(null, uploadDir);
+    cb(null, getUploadDir());
   },
   filename: (req, file, cb) => {
     const ext = path.extname(file.originalname).toLowerCase();
